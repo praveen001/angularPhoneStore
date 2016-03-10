@@ -1,0 +1,24 @@
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h3 class="panel-title">{{ product.name }} </h3>
+	</div>
+	<div class="panel-body">
+		<div class="row">
+			<div class="col-md-5">
+				<div class="row slider">
+					<img ng-src="images/{{sliderDefault}}" />
+				</div>
+				<div ng-repeat="image in product.images" class="sliderThumbnails">
+					<img ng-click="setImage(image)" ng-src="images/{{image.thumbnail}}" />
+				</div>
+			</div>
+		
+			<div class="col-md-7">
+				<p>{{ product.description }}</p>
+				<p class="stock-status green" ng-if="product.stock!=0">In Stock</p>
+				<p class="stock-status" ng-if="product.stock==0">Out of Stock</p>
+				<a ng-show="product.stock" class="btn btn-sm btn-primary">Buy Now( @ {{ product.price | currency : 'INR' }} )</a>
+			</div>
+		</div>
+	</div>
+</div>

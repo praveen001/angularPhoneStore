@@ -1,0 +1,19 @@
+{
+	"id" : 1,
+	"name" : "Redmi 2S",
+	"description" : "If you're looking for a budget-friendly Android smartphone with a cool UI that does not compromise on performance, then look no further than the Redmi 2.",
+	"price" : 6999,
+	"stock" : 10, 
+	"images" : [{
+		"full" : "redmi-1-full.jpg",
+		"thumbnail" : "redmi-1-thumbnail.jpg"
+	}, {
+		"full" : "redmi-2-full.jpg",
+		"thumbnail" : "redmi-2-thumbnail.jpg"
+	}, {
+		"full" : "redmi-3-full.jpg",
+		"thumbnail" : "redmi-3-thumbnail.jpg"
+	}]
+}
+
+

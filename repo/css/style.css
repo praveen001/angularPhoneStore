@@ -1,0 +1,37 @@
+
+
+ul {
+	list-style : none;
+}
+
+
+.panel {
+	width : 100%;
+	background : #eee;
+	margin : 0px;
+}
+
+.slider {
+	border: 1px solid #888;
+	text-align: center;
+	padding: 5px;	
+}
+
+.sliderThumbnails  {
+	text-align: center;
+	margin: 3px 3px 0px 0px;
+	padding : 2px;
+	border: 1px solid #888;
+ 	cursor : pointer;
+	float : left;
+	width: 120px; 
+	height: 120px;
+}
+
+.stock-status {
+	color : red;
+}
+
+.stock-status.green {
+	color:green;
+}

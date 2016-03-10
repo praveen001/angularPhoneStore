@@ -1,0 +1,17 @@
+{
+	"id" : 2,
+	"name" : "iPhone 6S",
+	"description" : "iPhone 6s - Take everything that made the previous generation great, and advance it to a new level. They're made with 7000 Series aluminium, the strongest alloy we've ever used in an iPhone. They both feature Retina HD displays made from the strongest cover glass used on any smartphone in the world. And now they're available in an elegant new rose gold finish.",
+	"price" : 54989,
+	"stock" : 2,
+	"images" : [{
+		"full" : "iphone-1-full.jpg",
+		"thumbnail" : "iphone-1-thumbnail.jpg"
+	}, {
+		"full" : "iphone-2-full.jpg",
+		"thumbnail" : "iphone-2-thumbnail.jpg"
+	}, {
+		"full" : "iphone-3-full.jpg",
+		"thumbnail" : "iphone-3-thumbnail.jpg"
+	}]							
+}

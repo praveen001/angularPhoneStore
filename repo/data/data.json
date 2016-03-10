@@ -1,0 +1,22 @@
+[{
+	"id" : 1,
+	"name" : "Redmi 2S",
+	"description" : "If you're looking for a budget-friendly Android smartphone with a cool UI that does not compromise on performance, then look no further than the Redmi 2.",
+	"price" : 6999,
+	"stock" : 10, 
+	"image" : {
+		"full" : "redmi-1-full.jpg",
+		"thumbnail" : "redmi-1-thumbnail.jpg"
+	}
+},{
+	"id" : 2,
+	"name" : "iPhone 6S",
+	"description" : "iPhone 6s - Take everything that made the previous generation great, and advance it to a new level. They're made with 7000 Series aluminium, the strongest alloy we've ever used in an iPhone. They both feature Retina HD displays made from the strongest cover glass used on any smartphone in the world. And now they're available in an elegant new rose gold finish.",
+	"price" : 54989,
+	"stock" : 2,
+	"image" : {
+		"full" : "iphone-1-full.jpg",
+		"thumbnail" : "iphone-1-thumbnail.jpg"
+	}							
+}]
+
